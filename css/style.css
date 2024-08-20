@@ -61,8 +61,6 @@ img {
     padding-top: 14%;
     text-align: center;
 
-  
-
 }
 .parent .title h2{
     color: rgb(0, 0, 0);
@@ -94,8 +92,7 @@ img {
 .banner  button{
     background-color: rgb(2, 184, 225);
     border-radius: 20px;
-    width: 8%;
-    height: 6vh;
+   padding: 0.6rem 1rem;
     font-size: 1.2rem;
 
     color: rgb(255, 255, 255);
@@ -184,15 +181,15 @@ img {
     gap: 3rem;
 
 }
-.portfolio__content .item__img{
-    width: 90%;
-    height: 40vh;
+
+.img__group{
+
     background-color: #ffffff;
+    border-radius: 20px;
+    border: 1.3rem solid rgb(255, 255, 255);
     display: grid;
     grid-template-columns: repeat(2,1fr);
    gap: 2rem;
-   border: 1.3rem solid rgb(255, 255, 255);
-   border-radius: 20px;
 }
 
 .portfolio__content .item h2{
@@ -215,7 +212,7 @@ img {
 
 .devaloper{
     width: 100%;
- height: 30vh;
+ padding: 1rem 0;
     background-color: #F89624;
     text-align: center;
 }
@@ -224,6 +221,10 @@ img {
     padding: 3rem;
    
 
+}
+
+.devaloper__content .item h3{
+    padding-top: 1rem;
 }
 .devaloper__content .item p{
     margin-bottom: 1rem;
@@ -235,7 +236,8 @@ img {
    padding: 1rem 2rem;
    border-radius: 10px;
     font-weight: 700;
-margin-left: 9rem;
+    
+margin: 0 auto;
 }
 
 
@@ -259,7 +261,6 @@ margin-left: 9rem;
 }
 .gallery__content .item__img{
     width: 90%;
-    height: 40vh;
     background-color: #ffffff;
    
 }
@@ -337,17 +338,17 @@ color: #fff;
 padding-top: 3rem;
 }
 .contactus__content p{
-    width: 50%;
+    width: 90%;
     font-weight: 550;
     text-align: center;
     padding-bottom: 1rem;
     color: #fff;
-    padding-left: 20rem;
+    margin: 0 auto;
   
 }
 .contactus__content button{
-    width: 12%;
-    height: 5vh;
+    padding: 0.6rem 1rem;
+    
     border-radius: 15px;
     background-color: #2fb5c4;
     font-size: 1.1rem;
@@ -355,7 +356,6 @@ padding-top: 3rem;
     font-weight: 500;
 
 }
-
 
 
 
@@ -367,19 +367,17 @@ iframe{
 
 
 
-
-
-
-
 .location{
     width: 100%;
-    height: 30vh;
     background-color: #424242;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
     color: aliceblue;
     gap: 1rem;
+}
+.location__content{
+    padding: 2rem 0;
 }
  .location .item{
     display: flex;

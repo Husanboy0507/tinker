@@ -14,13 +14,13 @@
 
     .about__content{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1,1fr);
         gap: 3rem;
     }   
 
     .portfolio__content{
         display: grid;
-        grid-template-columns: 100%;
+        grid-template-columns: repeat(1,1fr);
         gap: 2rem;
     }
 
@@ -42,16 +42,13 @@
         width: 100%;    
     }
 
-
-    .footer__content{
+    .location__content{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        gap: 2rem;
+        grid-template-columns: repeat(1,1fr);
     }
-    .footer__media i{
-        margin-left: 5px;
-        gap: 1rem;
-        margin-top: 5px;
- 
+    .img__group{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       gap: 2rem;
     }
 }
